@@ -1,0 +1,47 @@
+{
+ "faz": "rev C",
+ "adim": 1,
+ "zaman_istikrari": {
+  "yillar": [
+   2009,
+   2024
+  ],
+  "tam_graf_oran_min": 0.6651,
+  "tam_graf_oran_max": 0.9253,
+  "tam_graf_oran_2024": 0.9139,
+  "etiket": "ust_sinir_nace (ölçüm türevi)"
+ },
+ "seyrek_ag_2024": {
+  "0.25": {
+   "min": 0.1237,
+   "median": 0.265,
+   "max": 0.8431
+  },
+  "0.5": {
+   "min": 0.2737,
+   "median": 0.5634,
+   "max": 0.9083
+  },
+  "0.75": {
+   "min": 0.4918,
+   "median": 0.896,
+   "max": 0.907
+  },
+  "1.0": {
+   "min": 0.905,
+   "median": 0.905,
+   "max": 0.905
+  }
+ },
+ "seyrek_etiket": "varsayim_yogunluk (sektör düzeyi; firma ağı gözlenmedi)",
+ "tasima_2026Q1_milyar": {
+  "taban_stok": 39928.6,
+  "tam_graf_bandi": [
+   26556.5,
+   36945.9
+  ],
+  "seyrek_alt_uc": 4939.2,
+  "etiket": "varsayim_oran_tasima (iki kaynak, iki dönem)"
+ },
+ "yuzde20": "kaldırıldı; ölçülen bant: tam graf [0.665, 0.925] (2009–2024), seyrek ağ alt ucu 0.124"
+}
