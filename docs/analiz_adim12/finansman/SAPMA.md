@@ -1,0 +1,3 @@
+- S1: Ticari mevduat faizi TCMB'den doğrudan değil ikincil kaynaktan (spread farkı) alındı.
+- S2: KOBİ/büyük payda ayrımı yok; vekil %31/%69 hem paya hem paydaya → % düzelme iki grupta aynı.
+- S3: 2024 payda, 2026 faizleriyle eşleşmiyor (dönem uyumsuzluğu); 2025 duyarlılık eklendi.
