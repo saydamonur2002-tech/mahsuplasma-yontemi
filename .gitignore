@@ -1,0 +1,12 @@
+.env
+.env.*
+*.key
+*.pem
+__pycache__/
+.pytest_cache/
+*.pyc
+# Ham üçüncü taraf veri (yerelde indirilir, yüklenmez)
+*_ham.csv
+*.xls
+*.xlsx
+*.pdf
