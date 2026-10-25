@@ -1,0 +1,125 @@
+{
+ "faz": "rev D",
+ "beta_tavan": 0.0439,
+ "beta_bandi": [
+  0.0,
+  0.0439
+ ],
+ "beta_0_3": "ana tablodan çıkarıldı (tavan üstü)",
+ "phi": {
+  "A": 1.0,
+  "B": 1.0,
+  "C": 1.0,
+  "D": 1.0,
+  "E": 1.0,
+  "F": 0.757,
+  "G": 1.0,
+  "H": 1.0,
+  "I": 1.0,
+  "J": 1.0,
+  "L": 0.875,
+  "M": 0.868,
+  "N": 1.0,
+  "P": 1.0,
+  "Q": 1.0,
+  "R": 1.0,
+  "S": 1.0
+ },
+ "dpo_gun": {
+  "A": 85.5,
+  "B": 65.0,
+  "C": 62.2,
+  "D": 69.3,
+  "E": 78.7,
+  "F": 120.6,
+  "G": 57.9,
+  "H": 53.1,
+  "I": 58.0,
+  "J": 73.3,
+  "L": 104.3,
+  "M": 105.1,
+  "N": 48.2,
+  "P": 53.2,
+  "Q": 48.0,
+  "R": 61.3,
+  "S": 64.6
+ },
+ "lambda_yildiz": [
+  {
+   "rejim": "stok_tek_tur",
+   "capa": "2024-06",
+   "G1": 0.01492,
+   "lambda": 0.9151,
+   "durum": "kalibrasyon_varsayim"
+  },
+  {
+   "rejim": "stok_tek_tur",
+   "capa": "2025-03",
+   "G1": 0.01592,
+   "lambda": 0.913,
+   "durum": "kalibrasyon_varsayim"
+  },
+  {
+   "rejim": "stok_tek_tur",
+   "capa": "2025-09",
+   "G1": 0.01883,
+   "lambda": 0.9068,
+   "durum": "kalibrasyon_varsayim"
+  },
+  {
+   "rejim": "stok_tek_tur",
+   "capa": "2026-03",
+   "G1": 0.02239,
+   "lambda": 0.8992,
+   "durum": "kalibrasyon_varsayim"
+  },
+  {
+   "rejim": "stok_tek_tur",
+   "capa": "2026-09",
+   "G1": 0.02522,
+   "lambda": 0.8931,
+   "durum": "kalibrasyon_varsayim"
+  },
+  {
+   "rejim": "ceyreklik_akim",
+   "capa": "2024-06",
+   "G1": 0.01492,
+   "lambda": 1.0471,
+   "durum": "kalibrasyon_varsayim"
+  },
+  {
+   "rejim": "ceyreklik_akim",
+   "capa": "2025-03",
+   "G1": 0.01592,
+   "lambda": 1.0442,
+   "durum": "kalibrasyon_varsayim"
+  },
+  {
+   "rejim": "ceyreklik_akim",
+   "capa": "2025-09",
+   "G1": 0.01883,
+   "lambda": 1.0357,
+   "durum": "kalibrasyon_varsayim"
+  },
+  {
+   "rejim": "ceyreklik_akim",
+   "capa": "2026-03",
+   "G1": 0.02239,
+   "lambda": 1.0256,
+   "durum": "kalibrasyon_varsayim"
+  },
+  {
+   "rejim": "ceyreklik_akim",
+   "capa": "2026-09",
+   "G1": 0.02522,
+   "lambda": 1.0179,
+   "durum": "kalibrasyon_varsayim"
+  }
+ ],
+ "etiketler": {
+  "phi": "olcum_turevi (DPO, net satış ile)",
+  "ceyrekte_bir_tur": "varsayim",
+  "beta": "tavan olcum_turevi, bant varsayim",
+  "lambda*": "kalibrasyon_varsayim"
+ }
+}

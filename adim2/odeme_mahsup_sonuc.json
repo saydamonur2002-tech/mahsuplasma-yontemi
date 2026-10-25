@@ -1,0 +1,33 @@
+{
+  "senaryo": "esit_pay_150_firma_tcmb_2026q1",
+  "kenar_sayisi": 1212,
+  "parametreler": {
+    "mahsup_yontemi": "optimal",
+    "holding_odeme_orani": 0.5,
+    "sart_kaldiraci": true,
+    "ucret_gecis_beta": 0.3,
+    "asgari_ucret_artisi": 0.0,
+    "asgari_ucret_once_mi": false,
+    "dovize_kacis": 0.4,
+    "doviz_tavani": null
+  },
+  "ozet": {
+    "brut_borc": 3.087684791234955,
+    "brut_sonra_mahsup": 2.07,
+    "brut_azalma_oran": 0.32959478056952846,
+    "temerrut_brut": 0,
+    "temerrut_mahsup_akis": 0,
+    "temerrut_sart": 0,
+    "kredi_ihtiyaci_brut": 0.0,
+    "kredi_ihtiyaci_sart": 0.0,
+    "kilitli_sayisi": 0,
+    "batik_sayisi": 0,
+    "gercek_zarar": 0.0,
+    "araci_sayisi": 150,
+    "eisenberg_batik": 0
+  },
+  "teshis": {
+    "kilitli_ornek": [],
+    "batik_ornek": []
+  }
+}
