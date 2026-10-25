@@ -5,7 +5,10 @@
 ## Önce sonuç
 - **Adım 1 tek başına** tam katılımda yılda en fazla **737–738 milyar TL** faiz düşüşü verir [HESAP, üst sınır]. Bu, 2025 firma finansman giderinin **%17,2**'si. Monte Carlo medyanı 446,7 (P5–P95: 236,8–724,2) [VARSAYIM dağılımları].
 - **Adım 2** ek olarak kaçınılan köprü kredi faizi üretir (tam katılım MC medyanı 3.113 milyar TL/yıl). Ancak bu tutar **bugün ödenen bir gider değil**, varsayımsal köprü ihtiyacının faizidir. Faiz düşüşüne eklenmez.
-- TÜFE'ye muhasebe üst sınırı küçük: tam katılımda **0,15 pp** (P95 0,33) [VARSAYIM: geçiş payı ve GSYH yolu]. Nedensellik iddiası değil.
+- TÜFE'ye muhasebe üst sınırı küçük, tam katılım (k=%100), 2. yıl. Adım 1 ve Adım 1+2'de aynı, çünkü yalnız faiz düşüşü kanalını kullanır:
+  - **Merkez senaryo 0,262 pp** [HESAP]: tam mahsup gerçekleşmesi, spread 9,89 pp, geçiş 0,3. Hesap: 100 × 0,3 × 737,0 / 84.425.
+  - **Monte Carlo medyanı 0,150 pp** (P5 0,043 / P95 0,326) [VARSAYIM dağılımları]. Mahsup gerçekleşmesi ve spread belirsiz alındığı için medyan merkezden düşük.
+  - [VARSAYIM: geçiş payı ve GSYH yolu]. Nedensellik iddiası değil.
 - **Kalibrasyonda 4 hedeften 1'i tuttu, 2'si tutmadı, 1'i kullanılamadı.** Ayrıntı aşağıda.
 
 ## Senaryo tablosu (2. yıl, merkez: mahsup gerçekleşme 1, spread 9,89 pp, silme 0,885; milyar TL)

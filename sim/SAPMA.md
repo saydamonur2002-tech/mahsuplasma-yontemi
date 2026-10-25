@@ -8,3 +8,4 @@
 - ON_KAYIT'ta olmayan ek çıktılar: kaçınılan köprü faizi, ücret kanalı (β=0,0439 × serbest likidite 208,4).
 - TÜFE satırı GSYH 2026 için repodaki varsayım yolunu kullanıyor.
 - Ödemeyen payı, repodaki `odemeyen_payi_aylik.csv` yerine EVDS'ten (`TP.HPBITABLO6.19`, `.55`, aynı tanım) indiriliyor; böylece betik tek başına çalışıyor. 2026-09'a kadar eski dosyayla birebir aynı. Yeni 2026-10 ayı eklendi: kredi talebi satırları 0,3–0,7 pp, G1 eğimi −0,039'dan −0,043'e değişti.
+- TÜFE üst sınırı: RAPOR özeti ve README'de "tam katılımda 0,15 pp" yazıyordu. Bu MC medyanıydı; tablodaki 0,262 ise merkez senaryo. Hesap hatası yok (elle: 100×0,3×737,0/84.425 = 0,262). Metinde ikisi ayrı etiketlendi.
