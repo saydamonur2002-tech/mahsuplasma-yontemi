@@ -1,0 +1,16 @@
+{
+ "_not":"Birim mlr TL. Etiketler: VERİ/HESAP/VARSAYIM. Kaynak: adim12/tablo_adim12.csv, hassasiyet/h.py (GELTAB 2025).",
+ "borc_stoku_adim1":{"v":7463.7,"e":"VERİ-üst sınır (F–PFK+F–ROW)"},
+ "ticari_taban_adim2":{"v":16499.8,"e":"HESAP 14602.3/0.885 (repo ağ modeli mahsup oranı 0.885)"},
+ "serbest_nakit_taban":{"v":208.4,"e":"model, silme=0.885'te"},
+ "kopru_taban":{"v":8328.6,"e":"model, silme=0.885'te"},
+ "fin_gider_2025":{"v":{"G":4280.27,"K":1397.07,"B":2836.4},"e":"VERİ GELTAB 2025"},
+ "efk_2025":{"v":{"G":5508.99,"K":2092.42,"B":3345.98},"e":"VERİ GELTAB 2025"},
+ "usd_tl":{"v":49.56,"e":"HESAP 7463.7/150.6 (mevcut tablo)"},
+ "gsyh":{"v":85299,"e":"HESAP 7463.7/0.0875 (mevcut tablo)"},
+ "merkez":{"mahsup":1.0,"spread":0.0989,"kredi_faizi":0.53,"silme":0.885,"kobi_payi":0.3264},
+ "mc":{"n":20000,"seed":1,"_e":"VARSAYIM dağılımları",
+   "mahsup":["ucgen",0.25,0.6,1.0],"spread":["ucgen",0.05,0.0989,0.15],
+   "kredi_faizi":["ucgen",0.40,0.53,0.60],"silme":["ucgen",0.40,0.65,0.885],
+   "kobi_payi":["normal",0.3264,0.03],"korelasyon_mahsup_silme":0.5}
+}
