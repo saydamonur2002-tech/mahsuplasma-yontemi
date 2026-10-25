@@ -9,6 +9,7 @@ import numpy as np
 
 K = Path(__file__).resolve().parent
 HAM = K / "ham"
+HAM.mkdir(exist_ok=True)
 EVDS = "https://evds3.tcmb.gov.tr/igmevdsms-dis"
 
 # Mekanizma sabitleri (repo dosyalarından)
