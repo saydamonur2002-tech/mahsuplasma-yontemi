@@ -1,0 +1,2 @@
+adim,kaynak,nesne,donem,ag,deger,birim,durum,parametre,parametre_turu,not,dosya
+2,odeme_mahsup.py,"temerrüt sayısı, şart kaldıracı sonrası",2026-Q1,"sentetik 150 firma, 1212 kenar",0,adet,modellendi,holding_odeme_orani 0.5; ucret_gecis_beta 0.3,"parametre, veri değil",Ağ sentetik; ölçüm değil. Alta inen pay ücret: beta parametre. Firma düzeyi veri yok.,odeme_mahsup_sonuc.json
