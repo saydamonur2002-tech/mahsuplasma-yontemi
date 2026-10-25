@@ -40,8 +40,10 @@ Adım 1 net faiz düşüşü 738,2 milyar TL/yıl [HESAP] = 2024/2025 firma fina
 ## Nasıl çalıştırılır
 ```
 pip install numpy pandas scipy networkx pytest matplotlib
-pytest -q tests ortak/mahsuplasma_paketi docs/analiz_adim12/model
-python ortak/mahsuplasma_paketi/ornekler/calistir.py
+pytest -q tests                                   # 3 test
+(cd ortak/mahsuplasma_paketi && pytest -q)        # 12 test
+(cd docs/analiz_adim12/model && pytest -q)        # 1 test
+(cd ortak/mahsuplasma_paketi && python ornekler/calistir.py)
 ```
 `adim1/` ve `adim2/` betikleri kaynak depodaki düz klasör yapısını (`KOK = betik klasörü`, paket `KOK/mahsup`) ve ham veriyi bekler; burada arşiv olarak durur. Yeniden üretmek için zarar-teorisi deposunda ham veriyle çalıştırın.
 
