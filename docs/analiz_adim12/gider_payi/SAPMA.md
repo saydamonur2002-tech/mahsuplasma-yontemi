@@ -1,0 +1,3 @@
+- S1: FAVÖK hesaplanmadı (GELTAB'da amortisman yok).
+- S2: Yeni indirme yapılmadı; daha önce tcmb.gov.tr'den indirilmiş panel (2023-25) kullanıldı.
+- S3: KOBİ+Büyük toplamı GENEL'den ~%1 sapıyor (ölçek sınıflaması).
