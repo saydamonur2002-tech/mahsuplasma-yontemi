@@ -1,0 +1,1 @@
+SAPMA: KOBİ gerçek payı borç kaleminden değil finansman gideri payından (%32,6) alındı; repoda Adım2 için ayrı ağ parametresi aranmadı, silme oranı doğrudan değiştirildi. Önceki merkez KOBİ %66,8/büyük %84,8 'öncesi' oranlardı; sonrası merkez %55,3/%69,9.
