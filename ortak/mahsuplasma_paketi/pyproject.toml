@@ -1,0 +1,16 @@
+[project]
+name = "mahsuplasma"
+version = "0.1.0"
+description = "Çoklu mahsuplaşma modeli: kilitli borç zincirlerini çözen ve gerçek zararı görünür kılan mekanizma laboratuvarı"
+requires-python = ">=3.10"
+dependencies = ["networkx>=3.0"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["mahsuplasma"]
