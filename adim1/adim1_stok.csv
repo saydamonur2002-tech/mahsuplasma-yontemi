@@ -1,0 +1,8 @@
+cift,yon_ab,bacak_ab,kaynak_ab,yon_ba,bacak_ba,kaynak_ba,araclar,ortak_stok,brut,silinen,eski_tavan,yeni_tavan,evds_seri,not
+F–PFK,F→PFK,7195.0,metin,PFK→F,18729.0,metin,kredi+mevduat,7195.0,25924.0,,,,,iki yön metinde
+H–PFK,H→PFK,15361.0,metin,PFK→H,6772.0,metin,kredi+mevduat,6772.0,22133.0,,,,,iki yön metinde
+F–ROW,F→ROW,268.7,evds_ust_sinir,ROW→F,6575.0,metin,kredi,268.7,6843.7,,,,TP.FINHESTNKS11.ZP12 | TP.FINHESTNKS2.ZP12,ters yön EVDS konsolide olmayan aynı-araç üst sınırı; metinde yok
+PFK–ROW,PFK→ROW,4606.0,metin,ROW→PFK,4033.0,metin,kredi+mevduat,4033.0,8639.0,,,,,iki yön metinde
+GY–ROW,GY→ROW,977.8,evds_ust_sinir,ROW→GY,3131.0,metin,borclanma_senedi+kredi,977.8,4108.8,,,,TP.FINHESTNKS13.ZP12 | TP.FINHESTNKS2.ZP12; TP.FINHESTNKS13.ZP9 | TP.FINHESTNKS2.ZP9,ters yön EVDS konsolide olmayan aynı-araç üst sınırı; metinde yok
+GY–PFK,GY→PFK,1116.9,evds_ust_sinir,PFK→GY,10105.0,metin,borclanma_senedi,1116.9,11221.9,,,,TP.FINHESTNKS13.ZP9 | TP.FINHESTNKS12T.ZP31,ters yön EVDS konsolide olmayan aynı-araç üst sınırı; metinde yok
+TOPLAM,,,,,,,,20363.4,78870.4,,0.0728,0.2582,,"eski: stok_silim.py arac_ayri_oran_ust_sinir, satır toplamı; yeni: Σortak/Σbrüt, 6/6 çift dolu; yalnız metin iki yön 3 çift: 0.3175. Üst sınır, skor değil. Silinen boş: xls yok."

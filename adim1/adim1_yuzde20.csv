@@ -1,0 +1,4 @@
+taban,brut_milyar,oran,silinen_milyar,ust_sinir_oran,ust_sinir_milyar,ust_sinir_icinde,ust_sinira_oran,ust_sinir_kaynak,durum
+NACE Σ ticari borç (Sektör Bilançoları 2024),14335.4,0.2,2867.1,0.9139,13101.1,True,0.219,b_nace_taban,varsayim_yuzde20
+EVDS F içi diğer borç ZP44 (2026-Q1),39928.6,0.2,7985.7,0.9139,36490.7,True,0.219,b_nace_taban oranı taşındı (varsayım),varsayim_yuzde20
+Hazneler arası brüt (adim1_stok.csv TOPLAM),78870.4,0.2,15774.1,0.2582,20364.3,True,0.775,adim1_stok yeni_tavan (ust_sinir),varsayim_yuzde20

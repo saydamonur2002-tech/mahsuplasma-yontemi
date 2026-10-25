@@ -1,0 +1,138 @@
+{
+  "faz": 1,
+  "adim": 1,
+  "nesne": "F sektörü içi ticari kredi; adim1_stok.csv silinen sütunu DOLDURULMAZ",
+  "a_evds_fark": {
+    "ZP22": {
+      "kod": "ZP22",
+      "ad": "VF.8 diğer alacaklar (ticari kredi vekili)",
+      "konsolide_olmayan": 44743.7,
+      "konsolide": 4815.1,
+      "sektor_ici": 39928.6,
+      "durum": "olcum"
+    },
+    "ZP44": {
+      "kod": "ZP44",
+      "ad": "F.8 diğer borçlar (ticari kredi vekili)",
+      "konsolide_olmayan": 46340.8,
+      "konsolide": 6412.2,
+      "sektor_ici": 39928.6,
+      "durum": "olcum"
+    },
+    "ZP45": {
+      "kod": "ZP45",
+      "ad": "F.0 toplam yükümlülük",
+      "konsolide_olmayan": 141473.5,
+      "konsolide": 50776.6,
+      "sektor_ici": 90697.0,
+      "durum": "olcum"
+    }
+  },
+  "b_nace_taban": {
+    "brut_milyar": 14335.4,
+    "taban_milyar": 1234.5,
+    "silinen_max_milyar": 13100.9,
+    "silinen_max_oran": 0.9139,
+    "net": {
+      "A": -24.7,
+      "B": 21.3,
+      "C": 565.8,
+      "D": -169.1,
+      "E": -5.0,
+      "F": -120.9,
+      "G": -811.2,
+      "H": 52.1,
+      "I": -47.3,
+      "J": 61.2,
+      "L": 16.0,
+      "M": -48.0,
+      "N": 114.1,
+      "P": 4.4,
+      "Q": 17.5,
+      "R": -5.5,
+      "S": -2.8,
+      "DIS": 382.2
+    },
+    "dugum": 18,
+    "durum": "ust_sinir_nace",
+    "not": "Kısım içi (aynı NACE) borç düğümde görünmez; dış düğüm artığı taşır. Üst sınır, ölçüm değil."
+  },
+  "c_cekim_mahsup": {
+    "brut_milyar": 14335.4,
+    "silinen_milyar": 12973.6,
+    "silinen_oran": 0.905,
+    "teorik_taban_milyar": 1234.5,
+    "kalan_kenar": 63,
+    "durum": "varsayim_dagitim",
+    "not": "Çekim dağılımı ölçüm değil. Tam grafta optimal mahsup (b) tabanına iner; gerçek (seyrek) ağda silinen daha az."
+  },
+  "d_oran_tasima": {
+    "evds_sektor_ici_zp44_milyar": 39928.6,
+    "nace_silinen_max_oran": 0.9139,
+    "silinen_ust_milyar": 36490.7,
+    "durum": "varsayim_oran_tasima",
+    "not": "2024 NACE oranı 2026-Q1 EVDS stokuna taşındı; iki kaynak, iki dönem. Varsayım."
+  },
+  "e_senaryo_yuzde20": {
+    "oran": 0.2,
+    "satirlar": [
+      {
+        "taban": "NACE Σ ticari borç (Sektör Bilançoları 2024)",
+        "brut_milyar": 14335.4,
+        "ust_sinir_oran": 0.9139,
+        "ust_sinir_kaynak": "b_nace_taban",
+        "oran": 0.2,
+        "silinen_milyar": 2867.1,
+        "ust_sinir_milyar": 13101.1,
+        "ust_sinir_icinde": true,
+        "ust_sinira_oran": 0.219,
+        "durum": "varsayim_yuzde20"
+      },
+      {
+        "taban": "EVDS F içi diğer borç ZP44 (2026-Q1)",
+        "brut_milyar": 39928.6,
+        "ust_sinir_oran": 0.9139,
+        "ust_sinir_kaynak": "b_nace_taban oranı taşındı (varsayım)",
+        "oran": 0.2,
+        "silinen_milyar": 7985.7,
+        "ust_sinir_milyar": 36490.7,
+        "ust_sinir_icinde": true,
+        "ust_sinira_oran": 0.219,
+        "durum": "varsayim_yuzde20"
+      },
+      {
+        "taban": "Hazneler arası brüt (adim1_stok.csv TOPLAM)",
+        "brut_milyar": 78870.4,
+        "ust_sinir_oran": 0.2582,
+        "ust_sinir_kaynak": "adim1_stok yeni_tavan (ust_sinir)",
+        "oran": 0.2,
+        "silinen_milyar": 15774.1,
+        "ust_sinir_milyar": 20364.3,
+        "ust_sinir_icinde": true,
+        "ust_sinira_oran": 0.775,
+        "durum": "varsayim_yuzde20"
+      }
+    ],
+    "cekim_sonucu_oran": 0.905,
+    "durum": "varsayim_yuzde20",
+    "not": "Oran varsayım; üç tabanda sayı. Üst sınır içinde kalması olabilirliği gösterir, gerçekleştiğini değil. adim1_stok.csv silinen boş."
+  },
+  "nace_kisim": 17,
+  "kaynak": {
+    "bilanco": "Ekonomik faaliyetlere göre firmaların referans yıl bilanço hesapları .xls",
+    "gelir": "Ekonomik faaliyetlere göre firmaların referans yıl gelir tablosu .xls",
+    "yshi": "Ekonomik faaliyetlere göre temel göstergeler, 2024.xls",
+    "evds": [
+      "stok_silim_tavan_ham.csv",
+      "finansal_hesaplar_uzun.csv"
+    ]
+  },
+  "adim1_stok_silinen": "bos (dokunulmadi)",
+  "etiketler": [
+    "olcum",
+    "ust_sinir_nace",
+    "varsayim_dagitim",
+    "varsayim_oran_tasima",
+    "varsayim_yuzde20"
+  ]
+}
