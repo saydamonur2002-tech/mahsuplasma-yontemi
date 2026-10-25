@@ -1,0 +1,294 @@
+{
+ "kalibrasyon": {
+  "faiz_son": {
+   "ay": "2026-10",
+   "deger": 51.51,
+   "seri": "TP.KTF17",
+   "etiket": "VERİ"
+  },
+  "faiz_hedef": {
+   "model": 53.19,
+   "evds": 51.51,
+   "fark_pp": 1.68,
+   "tol": 1.0,
+   "tuttu": false
+  },
+  "theta": {
+   "deger": 0.5039,
+   "n_ay_2024": 7,
+   "etiket": "HESAP (2024'e kalibre)"
+  },
+  "geri_test_2025": {
+   "gercek": 4280.3,
+   "model": 3998.7,
+   "hata_yuzde": -6.6,
+   "tol_yuzde": 15,
+   "tuttu": true,
+   "n_ay": 12
+  },
+  "lambda_capa": {
+   "degerler": [
+    0.9151,
+    0.913,
+    0.9068,
+    0.8992,
+    0.8931
+   ],
+   "aralik": [
+    0.8931,
+    0.9151
+   ],
+   "tol": 0.02,
+   "tuttu": false
+  },
+  "g1_iliski": {
+   "egim_pp_per_faiz_pp": -0.043,
+   "r2": 0.319,
+   "n": 29,
+   "etiket": "TAHMİN (ilişki)",
+   "kullanildi": false
+  },
+  "g1_son": {
+   "ay": "2026-10",
+   "deger": 2.655
+  },
+  "ticari_kredi_son": {
+   "ay": "2026-10",
+   "milyar": 20232.176
+  }
+ },
+ "senaryolar": [
+  {
+   "k": 0.25,
+   "adim": "1",
+   "silinen_stok_A1": 1865.9,
+   "silinen_stok_A2": 0.0,
+   "faiz_dusus_y1": 99.7,
+   "faiz_dusus_y2": 184.2,
+   "faiz_dusus_pct_2025": 4.3,
+   "kacinilan_kopru_faizi_y2": 0.0,
+   "likidite_ihtiyaci_kacinilan": 0.0,
+   "kredi_talebi_pct": -0.0,
+   "ucret_kanali": 0.0,
+   "efektif_faiz_pp": 0.91,
+   "G1_degisim_pp": null,
+   "tufe_ust_sinir_pp": 0.065
+  },
+  {
+   "k": 0.5,
+   "adim": "1",
+   "silinen_stok_A1": 3731.8,
+   "silinen_stok_A2": 0.0,
+   "faiz_dusus_y1": 199.4,
+   "faiz_dusus_y2": 368.5,
+   "faiz_dusus_pct_2025": 8.6,
+   "kacinilan_kopru_faizi_y2": 0.0,
+   "likidite_ihtiyaci_kacinilan": 0.0,
+   "kredi_talebi_pct": -0.0,
+   "ucret_kanali": 0.0,
+   "efektif_faiz_pp": 1.82,
+   "G1_degisim_pp": null,
+   "tufe_ust_sinir_pp": 0.131
+  },
+  {
+   "k": 1.0,
+   "adim": "1",
+   "silinen_stok_A1": 7463.7,
+   "silinen_stok_A2": 0.0,
+   "faiz_dusus_y1": 398.7,
+   "faiz_dusus_y2": 737.0,
+   "faiz_dusus_pct_2025": 17.2,
+   "kacinilan_kopru_faizi_y2": 0.0,
+   "likidite_ihtiyaci_kacinilan": 0.0,
+   "kredi_talebi_pct": -0.0,
+   "ucret_kanali": 0.0,
+   "efektif_faiz_pp": 3.64,
+   "G1_degisim_pp": null,
+   "tufe_ust_sinir_pp": 0.262
+  },
+  {
+   "k": 0.25,
+   "adim": "1+2",
+   "silinen_stok_A1": 1865.9,
+   "silinen_stok_A2": 3650.6,
+   "faiz_dusus_y1": 99.7,
+   "faiz_dusus_y2": 184.2,
+   "faiz_dusus_pct_2025": 4.3,
+   "kacinilan_kopru_faizi_y2": 1070.8,
+   "likidite_ihtiyaci_kacinilan": 2082.1,
+   "kredi_talebi_pct": -10.3,
+   "ucret_kanali": 2.3,
+   "efektif_faiz_pp": 6.2,
+   "G1_degisim_pp": null,
+   "tufe_ust_sinir_pp": 0.065
+  },
+  {
+   "k": 0.5,
+   "adim": "1+2",
+   "silinen_stok_A1": 3731.8,
+   "silinen_stok_A2": 7301.1,
+   "faiz_dusus_y1": 199.4,
+   "faiz_dusus_y2": 368.5,
+   "faiz_dusus_pct_2025": 8.6,
+   "kacinilan_kopru_faizi_y2": 2141.6,
+   "likidite_ihtiyaci_kacinilan": 4164.3,
+   "kredi_talebi_pct": -20.6,
+   "ucret_kanali": 4.6,
+   "efektif_faiz_pp": 12.41,
+   "G1_degisim_pp": null,
+   "tufe_ust_sinir_pp": 0.131
+  },
+  {
+   "k": 1.0,
+   "adim": "1+2",
+   "silinen_stok_A1": 7463.7,
+   "silinen_stok_A2": 14602.2,
+   "faiz_dusus_y1": 398.7,
+   "faiz_dusus_y2": 737.0,
+   "faiz_dusus_pct_2025": 17.2,
+   "kacinilan_kopru_faizi_y2": 4283.2,
+   "likidite_ihtiyaci_kacinilan": 8328.5,
+   "kredi_talebi_pct": -41.2,
+   "ucret_kanali": 9.1,
+   "efektif_faiz_pp": 24.81,
+   "G1_degisim_pp": null,
+   "tufe_ust_sinir_pp": 0.262
+  }
+ ],
+ "monte_carlo_P5_P50_P95": {
+  "1_0.25": {
+   "faiz_dusus_y2": [
+    59.195,
+    111.7,
+    181.005
+   ],
+   "kacinilan_kopru_faizi_y2": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kredi_talebi_pct": [
+    -0.0,
+    -0.0,
+    0.0
+   ],
+   "tufe_ust_sinir_pp": [
+    0.011,
+    0.038,
+    0.081
+   ]
+  },
+  "1_0.5": {
+   "faiz_dusus_y2": [
+    118.39,
+    223.35,
+    362.105
+   ],
+   "kacinilan_kopru_faizi_y2": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kredi_talebi_pct": [
+    -0.0,
+    -0.0,
+    0.0
+   ],
+   "tufe_ust_sinir_pp": [
+    0.022,
+    0.075,
+    0.163
+   ]
+  },
+  "1_1.0": {
+   "faiz_dusus_y2": [
+    236.785,
+    446.7,
+    724.205
+   ],
+   "kacinilan_kopru_faizi_y2": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kredi_talebi_pct": [
+    -0.0,
+    -0.0,
+    0.0
+   ],
+   "tufe_ust_sinir_pp": [
+    0.043,
+    0.15,
+    0.326
+   ]
+  },
+  "1+2_0.25": {
+   "faiz_dusus_y2": [
+    59.195,
+    111.7,
+    181.005
+   ],
+   "kacinilan_kopru_faizi_y2": [
+    577.995,
+    778.4,
+    976.81
+   ],
+   "kredi_talebi_pct": [
+    -9.4,
+    -7.5,
+    -5.6
+   ],
+   "tufe_ust_sinir_pp": [
+    0.011,
+    0.038,
+    0.081
+   ]
+  },
+  "1+2_0.5": {
+   "faiz_dusus_y2": [
+    118.39,
+    223.35,
+    362.105
+   ],
+   "kacinilan_kopru_faizi_y2": [
+    1156.08,
+    1556.75,
+    1953.615
+   ],
+   "kredi_talebi_pct": [
+    -18.8,
+    -15.0,
+    -11.1
+   ],
+   "tufe_ust_sinir_pp": [
+    0.022,
+    0.075,
+    0.163
+   ]
+  },
+  "1+2_1.0": {
+   "faiz_dusus_y2": [
+    236.785,
+    446.7,
+    724.205
+   ],
+   "kacinilan_kopru_faizi_y2": [
+    2312.065,
+    3113.45,
+    3907.33
+   ],
+   "kredi_talebi_pct": [
+    -37.6,
+    -29.9,
+    -22.2
+   ],
+   "tufe_ust_sinir_pp": [
+    0.043,
+    0.15,
+    0.326
+   ]
+  }
+ },
+ "merkez_A1_tam_yillik": 738.2,
+ "y2_A1_k1": 737.0
+}

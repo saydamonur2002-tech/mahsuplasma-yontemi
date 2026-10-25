@@ -52,3 +52,11 @@ Kenar dağılımı (çekim/RAS) gözlenmedi; tam graf oranları üst sınırdır
 
 ## Lisans
 MIT (kaynak depo ile aynı).
+
+## Simülasyon (sim/)
+`sim/mahsup_sim.py` Adım 1 + Adım 2'yi 24 ay aylık dinamik ve Monte Carlo (N=5000) ile simüle eder; EVDS `TP.KTF17` ve ödemeyen payı verisine kalibre eder. Ayrıntı: `sim/RAPOR.md`, `sim/ON_KAYIT.md`, `sim/SAPMA.md`.
+- Adım 1, tam katılım: 2. yıl faiz düşüşü 737,0 milyar TL [HESAP, üst sınır] = 2025 finansman giderinin %17,2'si; MC medyanı 446,7 (P5–P95 236,8–724,2) [VARSAYIM dağılımları].
+- Adım 2 kaçınılan köprü kredi faizi (tam katılım, MC medyanı 3.113 milyar TL/yıl) varsayımsaldır, faiz düşüşüne eklenmez.
+- TÜFE muhasebe üst sınırı 0,15 pp (P95 0,33) [VARSAYIM].
+- **Kalibrasyon: 4 hedeften 1'i tuttu** (finansman gideri 2025 geri testi, −%6,6). Faiz hedefi (1,68 pp) ve λ* istikrarı (0,022) tutmadı; G1–faiz ilişkisi ters işaretli çıktığı için kullanılamadı.
+- Nedensellik iddiası yoktur. Ham veri (`sim/ham/`) yüklenmez; betik EVDS'ten `EVDS_API_KEY` ortam değişkeniyle indirir.
