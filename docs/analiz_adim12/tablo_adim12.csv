@@ -1,0 +1,6 @@
+kalem,toplam_mlrTL,KOBI_31_mlrTL,BUYUK_69_mlrTL,toplam_mlrUSD,GSYH_pct,etiket
+Adım1 borç stoku (F–PFK+F–ROW),7463.7,2313.7,5150.0,150.6,8.75,VERİ-üst sınır
+Adım1 faiz gideri düşüşü/yıl,3969.9,1230.7,2739.3,80.1,4.65,HESAP-üst sınır, brüt
+Adım2 ticari borç stoku (mahsup),14602.3,4526.7,10075.6,294.6,17.11,VERİ-model üst sınır
+Adım2 serbest likidite (nakit akışı),208.4,64.6,143.8,4.2,0.24,modellendi
+Adım2 köprü kredi ihtiyacı önlenen,8328.6,2581.9,5746.7,168.0,9.76,modellendi, stok
